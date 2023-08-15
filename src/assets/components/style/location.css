@@ -1,0 +1,23 @@
+
+.cotaintLocation {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border: 2px solid #8EFF8B;
+    margin: 3rem;
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: box-shadow 0.5s;
+}
+
+.cotaintLocation:hover {
+    box-shadow: 3px 7px 8px rgba(255, 0, 128, 0.5)
+}
+
+.locationInfo {
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+}

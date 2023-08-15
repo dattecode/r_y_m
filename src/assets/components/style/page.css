@@ -1,0 +1,23 @@
+
+.pages {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.pageOn {
+    color: #FF69B4;
+    background: #062226;
+    transition: background 0.8s, color 0.8s;
+}
+
+.page {
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 0.20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+
+.formClass {
+  height: 2rem;
+  margin-top: 20rem;
+  transition: box-shadow 0.5s;
+}
+
+.formClass:hover {
+  box-shadow: 3px 7px 8px rgba(255, 0, 128, 0.5)
+}
+
+.inputClass {
+  background-color: black;
+  width: 13rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  border: 2px solid #8eff8b;
+  text-align: center;
+}
+
+.btnClass {
+  background-color: #8EFF8B80;
+  height: 2rem;
+  width: 5rem;
+  border: none;
+  outline: none;
+  border: 2px solid #8eff8b;
+}
+
+input::placeholder {
+    color: #938686;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

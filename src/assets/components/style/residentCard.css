@@ -1,0 +1,89 @@
+
+.containerCard {
+    border: 2px solid #8EFF8B;
+    width: 19rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.8s;
+}
+
+.containerCard:hover {
+    box-shadow: 3px 7px 8px rgba(255, 0, 128, 0.5)
+}
+
+
+.statusCircle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.statusDead{
+    background-color: #B94343;
+}
+
+.statusAlive {
+    background-color: #8EFF8B;
+}
+
+.statusUnknown {
+    background-color: #938686;
+}
+
+.headerCard {
+    position: relative;
+}
+
+.imageSpecies {
+    border-bottom: 2px solid #8EFF8B;
+    height: 100%;
+    width: 100%;
+}
+
+
+.statusCont {
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 6rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    top: 80%;
+    left: 7rem;
+    border-radius: 0.25rem;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.titleName {
+    text-align: center;
+    border-bottom: 1px solid #8EFF8B;
+    padding: 0.4rem;
+    height: 100%;
+}
+
+.infoSpecies {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+
+.characterCard {
+    color: #938686;
+}
+
+ul > li {
+    display: flex;
+    gap: 4rem;
+}

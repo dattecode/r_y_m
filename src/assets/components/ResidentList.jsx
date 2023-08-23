@@ -23,10 +23,6 @@ const ResidentList = ({ residents, currentLocation }) => {
     pages.push(i)
   }
 
-  useEffect(() => {
-    setCurrentPage(1)
-  } , [currentLocation])
-
   return (
     <section class="contentPagination">
       <section className="paginationCard">
